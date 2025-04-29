@@ -18,18 +18,16 @@
     <header>
         <div class="logo">Delicate</div>
         <div class="tagline">Косметика в нежных оттенках</div>
+        <div class="logo-container">
+            <div class="logo-icon"><i class="fas fa-spa" style="color: #fde1f1; width: 1000px ;"></i></div>
+        </div>
     </header>
     
     <nav>
-        <button class="mobile-menu-btn" id="mobileMenuBtn">
-            <i class="fas fa-bars"></i>
-        </button>
         <ul id="navMenu">
-            <li><a href="#"><i class="fas fa-home"></i> Главная</a></li>
-            <li><a href="#"><i class="fas fa-list"></i> Каталог</a></li>
+            <li><a href=""><i class="fas fa-home"></i> Статьи</a></li>
+            <li><a href=""><i class="fas fa-list"></i> Каталог</a></li>
             <li><a href="#"><i class="fas fa-info-circle"></i> О нас</a></li>
-            <li><a href="#"><i class="fas fa-blog"></i> Блог</a></li>
-            <li><a href="#"><i class="fas fa-envelope"></i> Контакты</a></li>
         </ul>
     </nav>
     
@@ -37,29 +35,31 @@
         <section class="hero">
 
             
-            <img src="фото/женщина.png" alt="">
+            <img src="photo/женщина.png" alt="">
             <h1>Нежность в каждом оттенке</h1>
             <p>Откройте для себя нашу коллекцию косметических препаратов в пастельных тонах, созданных для подчеркивания вашей естественной красоты.</p>
-            <a href="#" class="btn"><i class="fas fa-search"></i> Исследовать коллекцию</a>
+            <a style="color: #7fb795;" href="#" class="btn"><i class="fas fa-search"></i> Исследовать коллекцию</a>
         </section>
 
         <div>
-            <h1> Каталог</h1>
+            <h1 id="products" style="font-size: 50px; background-color: #E0BBE4;
+
+color: #ffffff;" align="center"> Каталог <a  style="color: #b1b1b1; bottom: 10px;" href="#" class="btn"> Поиск...</a> <i class="fas fa-search"></i> </h1>
         </div>
         
-        <section class="products">
+        <section  class="products">
             <div class="product-card">
                 <div class="product-image" style="background-color: #dcdcdc;">
-                    <img src="фото/зеркало.png" style="width: 199px;" alt="">
+                    <img src="photo/зеркало.png" style="width: 199px;" alt="">
                     <i class="fas fa-powder"></i>
                 </div>
                 <div class="product-info">
                     
-                    <h3 class="product-title">Нежная пудра</h3>
-                    <div class="product-price">1,499 ₽</div>
-                    <p class="product-desc">Легкая рассыпчатая пудра с мерцающими частицами для сияющего завершения макияжа.</p>
+                    <h3 class="product-title">Мини-зеркальцо</h3>
+                    <div class="product-price">299 ₽</div>
+                    <p class="product-desc">Зеркало карманное маленькое. Внутри расположено два зеркала, обычное и с двукратным увеличением.</p>
+                    <a href="#" class="btn" style="background-color:#E0BBE4; color: #ffffff;"> Купить</a>
                     <a href="#" class="btn"><i class="fas fa-shopping-cart"></i> В корзину</a>
-                    <a class="btn-buy">Купить</a>
                 </div>
             </div>
 
@@ -67,53 +67,53 @@
 
             <div class="product-card">
                 <div class="product-image" style="background-color: #838383;">
-                    <img src="фото/тушь.png" style="width: 199px;" alt="">
+                    <img src="photo/тушь.png" style="width: 199px;" alt="">
                     <i class="fas fa-powder"></i>
                 </div>
                 <div class="product-info">
                     
-                    <h3 class="product-title">Нежная пудра</h3>
-                    <div class="product-price">1,499 ₽</div>
-                    <p class="product-desc">Легкая рассыпчатая пудра с мерцающими частицами для сияющего завершения макияжа.</p>
+                    <h3 class="product-title">Черная тушь для бровей</h3>
+                    <div class="product-price">499 ₽</div>
+                    <p class="product-desc">Твои идеальные брови с новой тушью для бровей от PÚSY, которая сделает их более выразительными, придав естественный оттенок и объем.</p>
+                    <a href="#" class="btn" style="background-color:#E0BBE4; color: #ffffff;"> Купить</a>
                     <a href="#" class="btn"><i class="fas fa-shopping-cart"></i> В корзину</a>
-                    <a href="#" class="btn2"> Купить</a>
                 </div>
             </div>
 
             <div class="product-card">
                 <div class="product-image" style="background-color: #c47c8d;">
-                    <img src="фото/помада.png" style="width: 144px;" alt="">
+                    <img src="photo/помада.png" style="width: 144px;" alt="">
                     <i class="fas fa-powder"></i>
                 </div>
                 <div class="product-info">
                     
-                    <h3 class="product-title">Нежная пудра</h3>
-                    <div class="product-price">1,499 ₽</div>
-                    <p class="product-desc">Легкая рассыпчатая пудра с мерцающими частицами для сияющего завершения макияжа.</p>
+                    <h3 class="product-title">Светло-малиновая помада</h3>
+                    <div class="product-price">599 ₽</div>
+                    <p class="product-desc">Перламутровая помада от белорусского бренда Relouis. Увлажняющая кремовая текстура наноситься идельно.</p>
+                    <a href="#" class="btn" style="background-color:#E0BBE4; color: #ffffff;"> Купить</a>
                     <a href="#" class="btn"><i class="fas fa-shopping-cart"></i> В корзину</a>
-                    <a href="#" class="btn2"> Купить</a>
                 </div>
             </div>
 
             <div class="product-card">
                 <div class="product-image" style="background-color: #b5d2ff;">
-                    <img src="фото/патчи.png" style="width: 199px;" alt="">
+                    <img src="photo/патчи.png" style="width: 199px;" alt="">
                     <i class="fas fa-powder"></i>
                 </div>
                 <div class="product-info">
                     
-                    <h3 class="product-title">Нежная пудра</h3>
+                    <h3 class="product-title">Голубые патчи</h3>
                     <div class="product-price">1,499 ₽</div>
-                    <p class="product-desc">Легкая рассыпчатая пудра с мерцающими частицами для сияющего завершения макияжа.</p>
+                    <p class="product-desc">Нацелены исцеление и очищение , богатый минералами очень полезен для лица.</p>
+                    <a href="#" class="btn" style="background-color:#E0BBE4; color: #ffffff;"> Купить</a>
                     <a href="#" class="btn"><i class="fas fa-shopping-cart"></i> В корзину</a>
-                    <a href="#" class="btn2"> Купить</a>
                 </div>
             </div>
 
 
             <div class="product-card">
                 <div class="product-image" style="background-color: #7fb795;">
-                    <img src="фото/лак.png" style="width: 144px;" alt="">
+                    <img src="photo/лак.png" style="width: 144px;" alt="">
                     <i class="fas fa-powder"></i>
                 </div>
                 <div class="product-info">
@@ -121,14 +121,14 @@
                     <h3 class="product-title">Лаки</h3>
                     <div class="product-price">1,800 ₽</div>
                     <p class="product-desc">Все весение цвета собраны в одном мега-наборе лаков. В наборе их 6 цветов</p>
+                    <a href="#" class="btn" style="background-color:#E0BBE4; color: #ffffff;"> Купить</a>
                     <a href="#" class="btn"><i class="fas fa-shopping-cart"></i> В корзину</a>
-                    <a href="#" class="btn2"> Купить</a>
                 </div>
             </div>
 
             <div class="product-card">
                 <div class="product-image" style="background-color: #e1dac2;">
-                    <img src="фото/пудра.png" style="width: 199px;" alt="">
+                    <img src="photo/пудра.png" style="width: 199px;" alt="">
                     <i class="fas fa-powder"></i>
                 </div>
                 <div class="product-info">
@@ -136,22 +136,22 @@
                     <h3 class="product-title">Нежная пудра</h3>
                     <div class="product-price">1,499 ₽</div>
                     <p class="product-desc">Легкая рассыпчатая пудра с мерцающими частицами для сияющего завершения макияжа.</p>
+                    <a href="#" class="btn" style="background-color:#E0BBE4; color: #ffffff;"> Купить</a>
                     <a href="#" class="btn"><i class="fas fa-shopping-cart"></i> В корзину</a>
-                    <a href="#" class="btn2"> Купить</a>
                 </div>
             </div>
             
             <div class="product-card">
                 <div class="product-image" style="background-color: #d5b9f8;">
-                    <img src="фото/крем.png" style="width: 288px;" alt="">
+                    <img src="photo/крем.png" style="width: 288px;" alt="">
                     
                 </div>
                 <div class="product-info">
                     <h3 class="product-title">Увлажняющий крем</h3>
                     <div class="product-price">750 ₽</div>
                     <p class="product-desc">Богатый питательный крем с экстрактом лаванды для идеально ухоженной кожи.</p>
+                    <a href="#" class="btn" style="background-color:#E0BBE4; color: #ffffff;"> Купить</a>
                     <a href="#" class="btn"><i class="fas fa-shopping-cart"></i> В корзину</a>
-                    <a href="#" class="btn2"> Купить</a>
                 </div>
             </div>
 
@@ -159,40 +159,84 @@
             
             <div class="product-card">
                 <div class="product-image" style="background-color: #fde1f1;">
-                    <img src="фото/кисти.png" style="width: 244px;"  alt="">
+                    <img src="photo/кисти.png" style="width: 244px;"  alt="">
                     
                 </div>
                 <div class="product-info">
-                    <h3 class="product-title">Кисточки для идеального макияжа</h3>
+                    <h3 class="product-title">Кисточки для макияжа</h3>
                     <div class="product-price">1,000 ₽</div>
                     <p class="product-desc"> Набор из 6 профессиональных кистей для безупречного макияжа, мягкие щетинки не раздражают кожу</p>
+                    <a href="#" class="btn" style="background-color:#E0BBE4; color: #ffffff;"> Купить</a>
                     <a href="#" class="btn"><i class="fas fa-shopping-cart"></i> В корзину</a>
-                    <a href="#" class="btn2"> Купить</a>
                 </div>
 
             </div>
 
             <div class="product-card">
                 <div class="product-image" style="background-color: #b37897;">
-                    <img src="фото/палетка.png" style="width: 288px;"  alt="">
+                    <img src="photo/палетка.png" style="width: 288px;"  alt="">
                     
                 </div>
                 <div class="product-info">
                     <h3 class="product-title">Пастельные тени</h3>
                     <div class="product-price">1,799 ₽</div>
                     <p class="product-desc">Набор из 16-ти нежных оттенков с кремовой текстурой для дневного макияжа и поддерживание красоты</p>
+                    <a href="#" class="btn" style="background-color:#E0BBE4; color: #ffffff;"> Купить</a>
                     <a href="#" class="btn"><i class="fas fa-shopping-cart"></i> В корзину</a>
-                    <a href="#" class="btn2"> Купить</a>
                 </div>
             </div>
 
         </section>
+        
+
+        <h1 style="font-size: 50px; background-color: #E0BBE4;
+        color: #ffffff;"> Полезные статьи</h1>
+
+        <section class="cards-article">
+
+        <div class="article-card">
+            <div class="article-image">
+              <img src="photo/article/статья1.jpg" alt="Уход за кожей">
+            </div>
+            <div class="article-content" >
+              <h3 class="article-title">◸Секреты идеального ухода за кожей◿</h3>
+              <p class="article-text" >Узнайте, как правильно подобрать косметику для вашего типа кожи. Наши эксперты раскрывают профессиональные техники очищения, увлажнения и питания, которые помогут сохранить молодость и сияние вашей кожи на долгие годы...</p>
+              <a href="#" class="article-btn">Читать статью ▷</a>
+            </div>
+          </div>
+
+          <div class="article-card">
+            <div class="article-image">
+              <img src="photo/article/статья2.jpg" alt="Уход за кожей">
+            </div>
+            <div class="article-content">
+              <h3 class="article-title">◸Полезные продукты для поддерживания красоты◿</h3>
+              <p class="article-text" >Полезные и опасные, аллергенные или наоборот необходимы для вашего здоровья лица. На завтрак, на обед и на ужин составлено максимально полезное меню. Для худеющих или просто сохранить свой вес, полезное питание... </p>
+              <a href="#" class="article-btn">Читать статью ▷</a>
+            </div>
+          </div>
+
+          <div class="article-card">
+            <div class="article-image">
+              <img src="photo/article/статья 3.jpg" alt="Уход за кожей">
+            </div>
+            <div class="article-content">
+              <h3 class="article-title">◸Какие модные оттенки в 2025 году?◿</h3>
+              <p class="article-text" >Закройте глаза.Представьте приятную пудру цвета облака на закате.Вдохните аромат фиалок, растворённый в прохладе утра. Проведите пальцем по кремовой текстуре оттенка «спящий перламутр». Это не фантазия — это палитра 2025 года.</p>
+              <a href="#" class="article-btn">Читать статью ▷</a>
+            </div>
+          </div>
+
+        </section>
+
+
+        
 
     
     <footer>
         <div class="footer-content">
             <div class="footer-logo">Delicate</div>
-            <p>Косметика, которая заботится о вас и окружающей среде</p>
+            <p class="text">Косметика, которая заботится о вас и окружающей среде</p>
             <div class="social-links">
                 <a href="#"><i class="fab fa-instagram"></i></a>
                 <a href="#"><i class="fab fa-facebook-f"></i></a>
