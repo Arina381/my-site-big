@@ -28,43 +28,15 @@ header {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-nav {
-    background-color: white;
-    padding: 1rem 0;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-    position: sticky;
-    top: 0;
-    z-index: 9;
+p, .member-position {
+    font-family: 'Montserrat', sans-serif;
 }
 
-nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    flex-wrap: wrap;
+.carousel-inner {
+    
+    display: block;
+    background-color: #E0BBE4;
 }
-
-nav li {
-    margin: 0 1.5rem;
-}
-
-nav a {
-    text-decoration: none;
-    color: var(--text-color);
-    font-weight: 500;
-    font-size: 1.1rem;
-    transition: color 0.3s;
-    display: inline-block;
-    padding: 0.5rem 0;
-}
-
-nav a:hover {
-    color: var(--secondary-color);
-}
-
-
 .logo {
     font-family: 'Playfair Display', serif;
     font-size: 2.5rem;
