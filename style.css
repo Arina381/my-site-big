@@ -20,12 +20,12 @@ body {
     line-height: 1.6;
 }
 
-/* Для менее важного текста используем Montserrat */
+
 .product-desc,  .tagline, .btn, nav a, .copyright, .product-price, p {
     font-family: 'Montserrat', sans-serif;
 }
 
-/* Шапка */
+
 header {
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     padding: 1.5rem 0;
@@ -49,7 +49,7 @@ header {
     font-weight: 500;
 }
 
-/* Навигация */
+
 nav {
     background-color: white;
     padding: 1rem 0;
@@ -171,7 +171,7 @@ nav a:hover {
 
 
 
-/* Основной контент */
+
 
 .product-actions {
     display: flex;
@@ -263,7 +263,7 @@ nav a:hover {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
-/* Карточки продуктов */
+
 .products {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -339,7 +339,7 @@ nav a:hover {
 
 
 
-/* Подвал */
+
 footer {
     background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
     color: white;
@@ -407,40 +407,9 @@ footer {
 }
 
 @media (max-width: 768px) {
-    nav ul {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        background-color: white;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        z-index: 8;
-    }
+
     
-    nav ul.active {
-        display: flex;
-    }
     
-    nav li {
-        margin: 0;
-        text-align: center;
-        border-bottom: 1px solid #f0f0f0;
-    }
-    
-    nav a {
-        padding: 1rem;
-        width: 100%;
-    }
-    
-    .mobile-menu-btn {
-        display: block;
-        position: absolute;
-        top: 50%;
-        right: 2rem;
-        transform: translateY(-50%);
-    }
     
     .hero {
         padding: 3rem 1.5rem;
